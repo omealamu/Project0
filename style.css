@@ -1,0 +1,28 @@
+body {
+    background-color: aquamarine;
+}
+
+#img2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+    text-align: center;
+    font-size: 70px;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Trocchi", Verdana;
+    color: red;
+    font-size: 80px;
+}
