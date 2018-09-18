@@ -1,7 +1,12 @@
 body {
-    background-color: #fefefe;
+    background-color: #f3d6a8;
     text-align: center;
     font-family: "Montserrat";
+}
+
+.col-centered {
+    float: none;
+    margin: 0 auto;
 }
 
 #row-1 {
@@ -20,17 +25,24 @@ body {
     color: #f3d6a8;
 }
 
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+}
+
+@media (max-width: 600px) {
+    .img1 {
+        width: 100px;
+    } 
+}
+
 #img2 {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 80%;
-}
-
-.center-block {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 p {

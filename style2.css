@@ -1,0 +1,94 @@
+.img1, .img2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+}
+
+.img1 {
+  width: 200px;
+}
+
+.img2 {
+  width: 80%;
+}
+
+body {
+  background-color: #f3d6a8;
+  text-align: center;
+  font-family: "Montserrat";
+}
+
+.col-centered {
+  float: none;
+  margin: 0 auto;
+}
+
+#row-1 {
+  background-color: #7ebea5;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#row-2 {
+  background-color: #f3d6a8;
+  color: #5cbddd;
+}
+
+#row-3 {
+  background-color: #5cbddd;
+  color: #f3d6a8;
+}
+
+ul > li {
+  text-align: left;
+}
+
+div h3 {
+  padding-top: 60px;
+}
+
+@media (max-width: 770px) {
+  .img1 {
+    width: 100px;
+  }
+}
+
+#img2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Cinzel", serif;
+  color: #fefefe;
+  font-size: 80px;
+}
+
+.text-center {
+  text-align: center;
+  font-family: "Shadows Into Light", cursive;
+  font-size: 30px;
+  color: #fefefe;
+}
+
+tr td img {
+  width: 100px;
+}
+
+h2 + p {
+  font-size: 16px;
+}
+
+.row-bio {
+  padding: 50px;
+}
+
+.row-bio h2 {
+  font-family: "Cinzel", serif;
+  font-size: 36px;
+}
+/*# sourceMappingURL=style2.css.map */
